@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db   = 'u3330627_klyukva';        // ← ТВОЯ БАЗА ДАННЫХ
 $user = 'u3330627_klyukva';        // ← ТВОЙ ЛОГИН
-$pass = 'твой_пароль_от_базы';     // ← ВСТАВЬ СВОЙ ПАРОЛЬ
+$pass = '3VBzQkN63H4q3ngw';     // ← ВСТАВЬ СВОЙ ПАРОЛЬ
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
@@ -10,4 +10,5 @@ try {
 } catch(PDOException $e) {
     die("Ошибка подключения к БД: " . $e->getMessage());
 }
+
 ?>
